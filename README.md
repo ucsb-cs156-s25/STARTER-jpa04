@@ -51,23 +51,23 @@ Then:
 * In the second window:
   ```
   cd frontend
-  nvm install 20.17.0
-  nvm use 20.17.0
+  nvm install 22.14.0
+  nvm use 22.14.0
   npm ci  
   npm start
   ```
 The app should be available on <http://localhost:8080>
 
 A few notes:
-* The `nvm install 20.17.0` command is only needed once per system.
-* The `nvm use 20.17.0` command is only needed once per terminal session
+* The `nvm install 22.14.0` command is only needed once per system.
+* The `nvm use 22.14.0` command is only needed once per terminal session
 * The `npm ci` command (`ci` is for `clean install` is typically only needed on your first run.
 
 So subsequent runs of the frontend are typically:
 
 ```
 cd frontend
-nvm use 20.17.0
+nvm use 22.14.0
 npm start
 ```
 
